@@ -1,0 +1,14 @@
+Pertanyaan Percobaan 1:
+1. Output bintang ada 6, karena perulangan dimulai dari 0 sampai 5.
+2. Program tidak bisa dijalankan, karena program akan berjalan ketika program bernilai true. Dan i>N adalah false.
+3. Output akan menampilkan bintang tanpa berhenti, karena progran akan berhenti ketika i <= 5. Tapi di kondisi ini i=1 selalu dikurang (i--) jadi akan terjadi infinite loop.
+
+Pertanyaan Percobaan 2:
+1. Jika iOuter=1 diubah menjadi iOuter=0, program akan mencetak (N+1) baris bintang karena loop dimulai dari 0 sehingga iterasi menjadi 6 kali untuk N=5.
+2. Jika i=1 diubah menjadi i=0, setiap baris akan mencetak (N+1) bintang karena loop dalam dimulai dari 0 sehingga menghasilkan 6 bintang per baris untuk N=5.
+3. Loop luar (iOuter) mengatur jumlah baris secara vertikal, sedangkan loop dalam (i) mengatur jumlah bintang per baris secara horizontal.
+4. Fungsi println() berfungsi untuk pindah ke baris baru setelah mencetak satu baris bintang; jika dihilangkan semua bintang akan tercetak dalam satu baris panjang, dan jika dipindah ke dalam loop setiap bintang akan tercetak di baris sendiri secara vertikal.
+
+Pertanyaan Percobaan 3:
+1. Tidak.
+2. Yang harus diperbaiki: Baris 8: int i = 0; seharusnya int i = 1; agar dimulai dari 1 bintang. Baris 11: while (j<i) seharusnya while (j<=i) agar jumlah bintang sesuai dengan baris ke-i. Dan ditambah System.out.println(); pada outer loop sebelum i++.
